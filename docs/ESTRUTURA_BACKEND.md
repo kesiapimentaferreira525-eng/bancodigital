@@ -156,4 +156,6 @@ As dependências são declaradas em `pom.xml`: Spring Boot Web MVC, Spring Data 
 ## Testes existentes
 
 - `ApiApplicationTests`: verifica se o contexto Spring inicia.
-- `TransferenciaServiceTest`: cobre rejeição de valor nulo e saldo insuficiente, incluindo a ausência de gravações nesses casos.
+- `CadastroClienteServiceTest`: cobre cadastro, criação da conta e persistência dos valores fictícios.
+- `TransferenciaServiceTest`: cobre validações de transferência e a ausência de gravações em operações inválidas.
+- `EncerramentoContaServiceTest`: cobre encerramento, senha incorreta e conta inativa.
